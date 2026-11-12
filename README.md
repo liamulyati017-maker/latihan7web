@@ -142,3 +142,6 @@ Uji tambahan keamanan: isi nama dengan `<script>alert(1)</script>` → tampil se
 7. **`htmlspecialchars()`:** mengubah karakter khusus HTML (`< > " '`) menjadi teks aman sehingga input pengguna tidak dijalankan sebagai HTML/script (mencegah XSS).
 8. **Manfaat function:** kode bisa dipakai ulang, lebih rapi, mudah diperbaiki, dan mudah dibaca.
 
+**Kesimpulan**
+
+PHP adalah bahasa server-side: kodenya dijalankan di server, dan browser hanya menerima hasil HTML-nya, jadi file PHP harus dijalankan lewat web server lokal seperti XAMPP. Lewat praktikum ini, kita belajar variabel, percabangan, perulangan, dan function, lalu memproses form dengan GET (data di URL, cocok untuk pencarian) dan POST (data di body, cocok untuk form). Input pengguna wajib divalidasi di sisi server dan ditampilkan dengan `htmlspecialchars()` agar aman. Semua konsep ini digabung di mini project formulir data mahasiswa, sehingga tujuan praktikum tercapai.
