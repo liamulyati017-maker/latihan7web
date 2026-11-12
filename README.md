@@ -40,7 +40,7 @@ Lab7Web_PHP/
 └── screenshot/        (taruh screenshot kamu di sini)
 ```
 
-## 5. Penjelasan Pelan-pelan (Bahasa Bayi)
+## 5. Penjelasan 
 
 ### Latihan 1 – Menjalankan PHP
 - PHP itu seperti **juru masak di dapur** (server). Browser itu **pembeli**.
