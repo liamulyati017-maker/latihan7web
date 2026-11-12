@@ -48,6 +48,8 @@ Lab7Web_PHP/
 - Pembeli tidak pernah melihat resepnya (kode PHP). Makanya kode PHP tidak muncul di browser.
 - `echo` artinya "tulis ini ke layar". `date(...)` artinya "ambil jam sekarang".
 
+<img width="478" height="301" alt="Screenshot 2026-11-12 132621" src="https://github.com/user-attachments/assets/e44f125d-e1c8-4186-8b57-4a9d340f3f2c" />
+
 <img width="204" height="96" alt="Screenshot 2026-11-12 120129" src="https://github.com/user-attachments/assets/49f2c5bf-89d6-486b-86e2-e0c7702d5e96" />
 
 
@@ -58,12 +60,16 @@ Lab7Web_PHP/
 - **if / elseif / else** = "kalau ... maka ...". Kalau nilai ≥ 85 dapat A, kalau tidak lalu kalau ≥ 75 dapat B, dan seterusnya.
 - Aku tambah tabel supaya kamu bisa lihat banyak kombinasi nilai sekaligus.
 
+<img width="326" height="409" alt="Screenshot 2026-11-12 132648" src="https://github.com/user-attachments/assets/76655c82-30a5-4c43-b7ee-27a077d7d821" />
+
 <img width="493" height="298" alt="image" src="https://github.com/user-attachments/assets/5883d6f0-0df4-420d-8264-45370950f34c" />
 
 ### Latihan 3 – Perulangan dan array
 - **Array** = rak dengan banyak laci, isinya daftar. `["Alya","Bima"]`
 - **foreach** = "ambil isi laci satu-satu dari awal sampai habis".
 - Aku tambah tiga nama: Eko, Fitri, Gilang.
+
+<img width="479" height="313" alt="Screenshot 2026-11-12 132659" src="https://github.com/user-attachments/assets/eb17aa6d-809d-4510-970a-8d78694413a3" />
 
 <img width="371" height="204" alt="image" src="https://github.com/user-attachments/assets/44e9eb6f-67d1-471a-b15e-4dcf983a4249" />
 
@@ -72,6 +78,8 @@ Lab7Web_PHP/
 - `hitungDiskon(150000, 10)` → harga dipotong 10%.
 - Aku tambah mesin baru: `hitungLuasPersegiPanjang` dan `tentukanKelulusan`.
 - Manfaat function: bisa dipakai berkali-kali tanpa menulis ulang.
+<img width="469" height="427" alt="Screenshot 2026-11-12 132711" src="https://github.com/user-attachments/assets/db93f37d-9f03-45f4-928c-62fad48ae610" />
+
 
 <img width="249" height="145" alt="image" src="https://github.com/user-attachments/assets/ebb7a5b2-8233-4b4b-95bc-c090742a5380" />
 
@@ -80,6 +88,7 @@ Lab7Web_PHP/
 - Cocok untuk pencarian. **Jangan** untuk kata sandi.
 - `isset($_GET["kata"])` = "apakah ada kiriman bernama kata?"
 - `trim()` = buang spasi di pinggir.
+<img width="440" height="271" alt="Screenshot 2026-11-12 132720" src="https://github.com/user-attachments/assets/7cc3d6cf-dce6-4901-8b75-954d2e1d8355" />
 
 <img width="421" height="125" alt="image" src="https://github.com/user-attachments/assets/788535ef-f8c5-4698-8630-464d8c352c2e" />
 
@@ -88,6 +97,7 @@ Lab7Web_PHP/
 - Tapi amplop belum tentu aman. Untuk aman, pakai HTTPS (POST bukan enkripsi).
 - `$_POST["nama"] ?? ""` artinya "ambil nama, kalau tidak ada pakai kosong".
 - `htmlspecialchars()` = mengubah `<` jadi teks biasa, jadi tag jahat tidak dijalankan browser.
+<img width="546" height="368" alt="Screenshot 2026-11-12 132728" src="https://github.com/user-attachments/assets/ff793afe-b1f3-46a1-bb51-ec3b44a8dec6" />
 
 <img width="410" height="208" alt="image" src="https://github.com/user-attachments/assets/7051628f-263a-4f13-a933-d4cbb8220988" />
 
@@ -95,6 +105,7 @@ Lab7Web_PHP/
 - Cek dulu: nama tidak kosong, harga angka dan ≥ 0, jumlah bilangan bulat ≥ 1.
 - Kalau lolos, subtotal = harga × jumlah, ditulis dengan format Rupiah.
 - Validasi HTML (`required`, `min`) cuma membantu pengguna. Pemeriksaan PHP yang paling penting, karena orang bisa menipu browser.
+<img width="393" height="431" alt="Screenshot 2026-11-12 132745" src="https://github.com/user-attachments/assets/5082260f-778d-4f34-b02f-244ca9c64105" />
 
 <img width="422" height="297" alt="image" src="https://github.com/user-attachments/assets/8f4c6f55-8c99-47ae-93dc-7dd0726ea4e7" />
 
@@ -103,6 +114,9 @@ Lab7Web_PHP/
 - Ada 5 isian: nama, NIM, prodi, semester, email.
 - Semua error ditampilkan sekaligus dalam daftar. Kalau benar semua, muncul ringkasan.
 - Isian tidak hilang kalau ada error (aku isi ulang pakai `value="..."`).
+<img width="394" height="453" alt="Screenshot 2026-11-12 132758" src="https://github.com/user-attachments/assets/b8bf1a83-338f-482b-a5c4-d774883d1a34" />
+
+<img width="388" height="377" alt="Screenshot 2026-11-12 132805" src="https://github.com/user-attachments/assets/c27a8c8d-6b71-4aa8-9a4e-be76b1342c85" />
 
 <img width="344" height="425" alt="image" src="https://github.com/user-attachments/assets/878d74e8-cd33-457c-a7d7-1c9e19f28271" />
 
@@ -113,6 +127,11 @@ Lab7Web_PHP/
 4. Validasi NIM: hanya angka dan tepat 10 digit (aturan ini aku tetapkan sendiri).
 5. Tombol Reset: `type="reset"` hanya mengembalikan isian di layar browser, **tanpa** bertanya ke server.
    Memproses ulang di server = form dikirim lagi ke PHP lalu PHP menjawab ulang.
+<img width="323" height="416" alt="Screenshot 2026-11-12 133647" src="https://github.com/user-attachments/assets/01e1e55e-3346-414c-9d9e-0c73d13d47e2" />
+
+<img width="425" height="382" alt="Screenshot 2026-11-12 133710" src="https://github.com/user-attachments/assets/db68765a-541a-4ea7-a156-91be7c7b83dd" />
+<img width="464" height="339" alt="Screenshot 2026-11-12 133717" src="https://github.com/user-attachments/assets/7c4e85e5-a0fc-4e2f-bd2b-af89462173b1" />
+
 
 <img width="410" height="402" alt="image" src="https://github.com/user-attachments/assets/56c32ddc-2e47-4bde-aa46-217d03b79c9c" />
 
